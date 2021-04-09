@@ -7,12 +7,11 @@ namespace ArrayAddition
     {
         static void Main(string[] args)
         {
-            int num = 0;
             List<int> numbers = new List<int>();
 
             for (int i = 0; i < args.Length; i++)
             {
-                num = Int32.Parse(args[i]);
+                int num = Int32.Parse(args[i]);
                 numbers.Add(num);
                 Console.WriteLine(" Numbers are : " + num);
             }
